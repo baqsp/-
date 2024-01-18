@@ -1,0 +1,48 @@
+css
+/* Основные стили */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header, footer {
+background-color: #333;
+color: white;
+padding: 20px;
+}
+
+header h1 {
+margin: 0;
+}
+
+footer p {
+margin: 0;
+}
+
+/* Стили для разделов с продуктами */
+section {
+padding: 20px;
+}
+
+section h2 {
+color: #333;
+}
+
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+
+ul li {
+margin-bottom: 10px;
+}
+
+/* Дополнительные стили для определенных элементов */
+#burgers {
+background-color: lightgray;
+}
+
+#shawarma {
+background-color: lightgreen;
+}
